@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/Majmmah2.jpg");
+    background-size: cover; 
+    height: 300px;
+    padding: 10px 0 50px 0;
+}
+#h-1{
+    padding: 10px;
+    width: 270px;
+    margin: 100px auto 0 auto;
+    background: #9C6644;
+    border: none;
+    border-radius: 10px;
+}
+#h-2{
+    
+    padding: 10px;
+    width: 500px;
+    margin: 20px auto 10px auto;
+    background: #B08968;
+    border: none;
+    border-radius: 10px;
+}
+
+#activites{
+    color: #1D3557;
+    background: #FFE8D6;
+    padding: 10px 0 50px 0;
+}
+.imgs{
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#img1{
+    width: 100px;
+    border: none;
+    height: 100px;
+    border-radius: 50%;
+}
+#img2{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+}
+#img3{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+}
+.img-text1{
+    width: 200px;
+}
+.img-text2{
+    width: 200px;
+}
+.img-text3{
+    width: 200px;
+}
+
+#guide{
+    color: #1D3557;
+}
+
+.card{
+    width: 600px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px; 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row; 
+    border: none;
+    background: #E6CCB2;
+    border-bottom: 10px solid #1D3557;
+    border-radius: 10px;
+    
+}
+
+img{
+    width: 250px;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 10px;
+}
+
+.guide-text{
+    font-size: 18px;
+    text-align: center;
+    margin: 40px auto 20px auto;
+    width: 200px;
+}
+.quote{
+ font-style: italic; 
+ margin: 40px 0 60px 0;
+ font-size: 18px;
+ width: 200px;
+}
